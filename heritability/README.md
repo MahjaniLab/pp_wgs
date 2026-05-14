@@ -36,7 +36,7 @@ We use PCGC regression (Golan et al., PNAS 2014) as implemented in LDAK6 (Speed 
 
 ## References
 
-- Golan D, Lander ES, Rosset S. PNAS 2014. https://doi.org/10.1073/pnas.1419031111
+- Golan D, Lander ES, Rosset S. PNAS 2014. https://doi.org/10.1073/pnas.1419064111
 - Speed D et al. Nat Genet 2017. https://doi.org/10.1038/ng.3865
 - Speed D et al. Nat Genet 2020. https://doi.org/10.1038/s41588-020-0600-y
 - Hansen BB, Klopfer SO. JCGS 2006 optmatch).
