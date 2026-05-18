@@ -12,7 +12,6 @@ Output:
   - ${WORKSPACE_BUCKET}/data/cohort_sex_pass.mt
   - ${WORKSPACE_BUCKET}/data/sex_check_results.tsv
 
-Expected exclusions: ~7 samples (paper Methods, v7).
 """
 
 import os

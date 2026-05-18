@@ -20,17 +20,8 @@ QC pipeline for the All of Us short-read WGS cohort, producing the post-QC PLINK
 
 ## Cohort definition
 
-Cases: women with mania or psychosis (ICD-9 / ICD-10 codes per Table S1 of the paper) within 0–3 months of their first live birth. Controls: parous women without any psychiatric diagnosis. The combined v7 cohort yielded 431 cases and 10,418 candidate controls before QC.
+Cases: women with mania or psychosis (ICD-9 / ICD-10 codes per Table S1 of the paper) within 0–3 months of their first live birth. Controls: parous women without any psychiatric diagnosis.
 
-## Sample QC summary (paper Methods, v7)
-
-| Filter | Samples removed |
-|---|---|
-| AoU-flagged | 31 |
-| Call rate | 43 |
-| Relatedness (KING) | 189 |
-| Sex mismatch | 7 |
-| Remaining | 305 cases + 8,736 controls |
 
 ## Manual relatedness review
 
