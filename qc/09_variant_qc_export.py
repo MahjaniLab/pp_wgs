@@ -15,7 +15,6 @@ Output:
   - ${WORKSPACE_BUCKET}/data/cohort_final.mt
   - ${WORKSPACE_BUCKET}/data/cohort_final.{bed,bim,fam}
 
-Expected cohort: 305 cases + 8,736 controls (v7, paper Methods).
 """
 
 import os

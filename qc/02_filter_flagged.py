@@ -12,7 +12,6 @@ Input:
 Output:
   - ${WORKSPACE_BUCKET}/data/cohort_flagged_passed.mt
 
-Expected exclusions: ~31 samples (paper Methods, v7).
 """
 
 import os

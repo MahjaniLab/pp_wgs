@@ -11,7 +11,6 @@ Output:
   - ${WORKSPACE_BUCKET}/data/cohort_callrate.mt
   - ${WORKSPACE_BUCKET}/data/sample_callrate.tsv
 
-Expected exclusions: ~43 samples (paper Methods, v7).
 """
 
 import os
