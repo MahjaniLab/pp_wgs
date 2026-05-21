@@ -6,8 +6,7 @@ QC pipeline for the All of Us short-read WGS cohort, producing the post-QC PLINK
 
 | Step | Script | Description |
 |------|--------|-------------|
-| 0 | 00_define_cohort.py | Build PPS case/control list from AoU SQL extracts |
-| 1 | 01_extract_cohort_mt.py | Subset AoU srWGS MT to cohort, annotate phenotype |
+| 1 | 01_extract_cohort_mt.py | Subset AoU srWGS MT to cohort from cohort_phenotype.csv, annotate phenotype |
 | 2 | 02_filter_flagged.py | Drop AoU-flagged samples (variant count outliers, contamination, etc.) |
 | 3 | 03_filter_lcr.py | Remove variants in low-complexity regions |
 | 4 | 04_genotype_qc.py | Genotype-level FT / AB / GQ / pab filters |
@@ -17,6 +16,8 @@ QC pipeline for the All of Us short-read WGS cohort, producing the post-QC PLINK
 | 7 | 07_apply_manual_drop.py | Apply manual drop list |
 | 8 | 08_sex_check.py | chrX F-stat sex check (cohort is all female) |
 | 9 | 09_variant_qc_export.py | Variant call rate + HWE + PLINK export |
+
+> Prerequisite: The pipeline expects ${WORKSPACE_BUCKET}/data/cohort_phenotype.csv with columns person_id and phenotype (1=case, 0=control). Cohort construction is handled outside this pipeline; the criteria below describe what the cohort represents.
 
 ## Cohort definition
 
