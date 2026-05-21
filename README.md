@@ -24,7 +24,6 @@ pp_WGS/
 ├── qc/                    # WGS sample- and variant-level QC (All of Us v7 + v8)
 ├── matching/              # PC-based case–control matching (optmatch)
 ├── annotation/            # VEP, LOFTEE, MPC-based variant classification
-├── burden/                # SKAT-O and binomial burden tests by LOEUF decile
 ├── tada/                  # TADA gene-level association (Bayes factors, q-values)
 ├── replication/           # BioMe rare-variant replication (SKAT-O)
 ├── overlap/               # propTrueNull cross-disorder enrichment
